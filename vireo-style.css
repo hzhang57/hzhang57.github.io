@@ -1,0 +1,94 @@
+BODY {
+	FONT-SIZE: 10pt; BACKGROUND: #FFFFF;MARGIN: 1px auto; COLOR: #2E3234; FONT-FAMILY: sans-serif; TEXT-ALIGN: center; padding: 0px; border-top: #505050 18px solid; 
+}
+A {
+	COLOR: #000093;
+}
+A:hover {
+	COLOR: #349f2b
+}
+IMG {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+H1 {
+	MARGIN: 0px
+}
+H2 {
+	MARGIN: 0px
+}
+H3 {
+	MARGIN: 0px; MARGIN-BOTTOM: 0px;
+}
+H1 {
+	FONT-SIZE: 150%; COLOR: #aaaaa;
+}
+H2 {
+	MARGIN-TOP: 0.5em; MARGIN-BOTTOM: 0.5em; FONT-SIZE: 105%; COLOR: #8c0000;
+}
+H3 {
+	MARGIN-TOP: 0em; FONT-SIZE: 100%; COLOR: #2e60aa; 
+}
+H4 {
+	MARGIN-TOP: 1em; MARGIN-BOTTOM: 0em; FONT-SIZE: 110%; COLOR: #2E3234
+}
+P {
+	FONT-SIZE: 10pt;
+}
+#content {
+	FONT-SIZE: 10pt;
+}
+TABLE {
+	BORDER-RIGHT: #515a5f 0px solid; BORDER-TOP: #515a5f 0px solid; BORDER-LEFT: #515a5f 0px solid; BORDER-BOTTOM: #515a5f 0px solid; BORDER-COLLAPSE: collapse; FONT: 12pt
+}
+TD {
+	VERTICAL-ALIGN: top; TEXT-ALIGN: left
+}
+.left {
+	FLOAT: left; MARGIN-RIGHT: 1em
+}
+.right {
+	FLOAT: right; MARGIN-LEFT: 1em
+}
+#container {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; MARGIN: 0px auto; WIDTH: 800px; BORDER-RIGHT-WIDTH: 0px
+}
+
+#topnav {
+	PADDING-RIGHT: 0px; BORDER-TOP: #515a5f 1px dashed; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 90%; PADDING-BOTTOM: 8px; MARGIN: 0px; PADDING-TOP: 8px
+}
+#topnav STRONG {
+	FONT-SIZE: 11pt; COLOR: #fe7e00
+}
+#topnav A {
+	FONT-SIZE: 11pt; COLOR: #515a5f; TEXT-DECORATION: none
+}
+#topnav A:hover {
+	FONT-SIZE: 11pt; COLOR: #349f2b; TEXT-DECORATION: underline
+}
+.sep {
+	MARGIN: 0px 0.6em 0px 0.8em
+}
+#mainleft {
+	PADDING-RIGHT: 20px; PADDING-LEFT: 0px; PADDING-BOTTOM: 40px; PADDING-TOP: 14px
+}
+#mainright {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: right; PADDING-BOTTOM: 40px; PADDING-TOP: 14px
+}
+#mainright H2 {
+	FONT-SIZE: 125%
+}
+#foot {
+	FONT-SIZE=9pt
+}
+#foot A {
+	COLOR: #515a5f; TEXT-DECORATION: none
+}
+#foot A:hover {
+	COLOR: #349f2b; TEXT-DECORATION: underline
+}
+#foot P {
+	MARGIN-BOTTOM: 0.25em
+}
+#foot TD {
+	BORDER-TOP: #515a5f 1px dashed; PADDING-TOP: 8px; 
+}
