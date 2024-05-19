@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Hao ZHANG's Homepage</title>
+
+    <!-- Le styles -->
+    <link href="bootstrap.css" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-top: 20px;
+        padding-bottom: 60px;
+      }
+	  
+	  .foot-fixed-bottom {
+ bottom: 0;
+ display: block;
+ left: 0;
+ margin-bottom: 0;
+ position: fixed;
+ right: 0;
+ z-index: 1030;
+ background-color: rgba(130, 130, 130, 0.8);
+}
+.foot-fixed-bottom hr {
+ border-image: none;
+ border-style: solid none;
+ border-width: 1px 0;
+ margin: 0 0 5px;
+ width: 100%;
+}
+.foot-fixed-bottom p {
+ color: rgb(255, 255, 255);
+ font-size: 14px;
+ margin: 0 12px 15px;
+}
+
+      /* Custom container */
+      .container {
+        margin: 0 auto;
+        max-width: 1000px;
+      }
+      .container > hr {
+        margin: 60px 0;
+      }
+
+      /* Main marketing message and sign up button */
+      .jumbotron {
+        margin: 80px 0;
+        text-align: center;
+      }
+      .jumbotron h1 {
+        font-size: 100px;
+        line-height: 1;
+      }
+      .jumbotron .lead {
+        font-size: 24px;
+        line-height: 1.25;
+      }
+      .jumbotron .btn {
+        font-size: 21px;
+        padding: 14px 24px;
+      }
+
+      /* Supporting marketing content */
+      .marketing {
+        margin: 60px 0;
+      }
+      .marketing p + h4 {
+        margin-top: 28px;
+      }
+
+
+      /* Customize the navbar links to be fill the entire space of the .navbar */
+      .navbar .navbar-inner {
+        padding: 0;
+      }
+      .navbar .nav {
+        margin: 0;
+        display: table;
+        width: 100%;
+      }
+      .navbar .nav li {
+        display: table-cell;
+        width: 1%;
+        float: none;
+      }
+      .navbar .nav li a {
+        font-weight: bold;
+        text-align: center;
+        border-left: 1px solid rgba(255,255,255,.75);
+        border-right: 1px solid rgba(0,0,0,.1);
+      }
+      .navbar .nav li:first-child a {
+        border-left: 0;
+        border-radius: 3px 0 0 3px;
+      }
+      .navbar .nav li:last-child a {
+        border-right: 0;
+        border-radius: 0 3px 3px 0;
+      }
+    </style>
+    <link href="bootstrap-responsive.css" rel="stylesheet">
+
+    
+  </head>
+
+  <body>
+
+    
+
+      <div class="masthead">
+        <h3 class="muted"></h3>
+        <div class="navbar navbar-fixed-top">
+          <div class="navbar-inner">
+            <div class="container">
+              <ul class="nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#bio">Short Bio</a></li>
+                <!--<li><a href="#Download">Download</a></li>-->
+                <li><a href="#Publication">Publication</a></li>                
+              </ul>
+            </div>
+          </div>
+        </div><!-- /.navbar -->
+      </div>
+
+      <div class="container">
+	      <br><br>
+		  <div class="bs-docs-grid ">
+	 
+	  	  <div class="media">
+		    <a class="pull-left">
+			    <img src="zhanghao.jpeg" height="260" width="150" class="media-object" >
+			</a>
+			<div class="media-body">			
+			<h4>Hao Zhang (张浩)</h4>
+			<!--<h5>Ph.D in Computer Science <a href="./cv.pdf">(CV)</a></h5>-->
+			<h5>Ph.D in Computer Science</h5>
+      <a href="https://scholar.google.com.hk/citations?user=Cqy13vYAAAAJ&hl=zh-CN" >Google Scholar</a><br>
+
+			Video Retrieval Group <a href="http://vireo.cs.cityu.edu.hk/">(VIREO)</a><br>
+			Department of Computer Science<br>			
+			City University of Hong Kong<br>
+      <br><br>
+			<i>Email: zhanghaoinf AT gmail DOT com</i>			
+			 
+		 </div></div>
+		 
+		 <a id= "bio"></a>
+		 <hr>
+		 <div class="row">	
+		 <div class="span">
+				<h4>Short Bio</h4>
+				Hao Zhang received Ph.D degree from <a href="http://www.cs.cityu.edu.hk/">City University of Hong Kong</a>, supervised by <a href="http://www.cs.cityu.edu.hk/~cwngo/">Prof. Chong-Wah
+                Ngo</a>. 
+        <br>
+				He received the M.S. degree from <a href="http://www.cse.cuhk.edu.hk">Chinese University of Hong Kong</a> (2013), and the B.S. degree from <a href="https://www.nju.edu.cn/">Nanjing University</a> (2012).
+				
+				<br> <br>
+				His research interest lies in multimedia content analysis, including atomic visual action detection, semantical concept indexing and multimedia event detection in large-scale videos. He serves as a technical program committee (TPC) member for ACM Multimedia 2019/2020, and reviewer for ACM Multimedia 2021, CVPR2021/2022, ICCV2021, ECCV2022, IEEE TCSVT, IEEE TCDS, ACM TOMM, Neurocomputing, ICCV 2019 Workshop, ICME 2020, 《中国科学: 信息科学》.
+		 </div>
+		 </div>
+		 <!--	
+		 <a id= "Download"></a>
+		 <hr>
+		 <div class="row">	
+		 <div class="span">
+				<h4>Download</h4>
+				<ul>
+				<li><b><a
+                    href="http://vireo.cs.cityu.edu.hk/vireoweb81"><u>VIREO-WEB81</u></a>
+                    concept detectors, features and detection scores on
+                    NUS-WIDE dataset</b> <br>
+                    We are pleased to release 81 semantic concept detectors
+                    trained on the NUS-WIDE training dataset, and their
+                    detection scores on NUS-WIDE testing dataset. Global and
+                    local features (BoW) are also available.</li> 
+				</ul>
+		 </div>
+		 </div>
+		 -->
+		 <a id= "Publication"></a>
+		 <hr>
+		 <div class="row">	
+		 <div class="span">
+				<h4>Publication</h4>
+				<h5><i>Selected Works (* corresponding author)</i></h5>
+				<ul>
+
+		<!--RPA, IEEE TNNLS 2023 -->
+		<li><i>A Region-Prompted Adapter Tuning for Visual Abductive Reasoning</i><a target="_blank"
+                    href="https://arxiv.org/abs/2303.10428"><img
+                    border="0" src="./pdf.bmp" align="top"></a>
+                   <br>
+		    <b>H. Zhang</b>, Y. K. Ee, B. Fernando, Arxiv, 2023.
+                    <br><br>
+                 </li>
+
+		
+		<!--LAPS, MM 2022 -->
+		<li><i>Long-term Leap Attention, Short-term Periodic Shift for Video Classification</i><a target="_blank"
+                    href="https://arxiv.org/abs/2207.05526"><img
+                    border="0" src="./pdf.bmp" align="top"></a>
+		    <a target="_blank"
+                    href="https://github.com/VideoNetworks/LAPS-transformer"><img
+                    border="0" src="./Octocat.png" align="top", width="26"></a>
+			<br>
+                    <b>H. Zhang</b>, L. C. Cheng, Y. B. Hao*, C. W. Ngo, ACM Multimedia (<b>ACM MM</b>), 2022, Oral.
+                    <br><br>
+                 </li>
+		<!--TokShift, MM 2021 -->
+		<li>Token Shift Transformer for Video Classification<a target="_blank"
+                    href="https://arxiv.org/pdf/2108.02432.pdf"><img
+                    border="0" src="./pdf.bmp" align="top"></a><a target="_blank"
+                    href="https://github.com/VideoNetworks/TokShift-Transformer"><img
+                    border="0" src="./Octocat.png" align="top", width="26"></a>
+                    <a target="_blank"
+                    href="./pub/mm21_poster_tokshift.pdf">Poster</a><br>
+                    <b>H. Zhang</b>, Y. B. Hao*, C. W. Ngo, ACM Multimedia (<b>ACM MM</b>), 2021.
+                    <br><br>
+                 </li>
+					
+		<!--ObjectVLAD, TMM 2018 -->					
+        	<li>A Fine Granularity Object-level Representation for Event Detection and Recounting<a target="_blank"
+                    href="https://ieeexplore.ieee.org/document/8556097"><img
+                    border="0" src="./pdf.bmp" align="top"></a><br>
+                    <b>H. Zhang</b>, C. W. Ngo, IEEE. Trans on Multimedia (<b>IEEE TMM</b>), 2018
+                    <br><br>
+                 </li>
+
+		<!--Zero 2023 -->
+		<li><i>ZERO: Zero Shot and Open-ended Inference in Video Understanding</i><a target="_blank"
+                    href="https://arxiv.org/abs/2401.12471"><img
+                    border="0" src="./pdf.bmp" align="top"></a><br>
+		    Y. K. Ee, <b>H. Zhang</b>, A. Matyasko, B. Fernando, Arxiv, 2023.
+                    <br><br>
+                 </li>
+
+		<!--SRD-->
+		<li><i>Effective Scene Graph Generation by Statistical Relation Distillation</i><a target="_blank"
+                    href=""><img
+                    border="0" src="./pdf.bmp" align="top"></a><a target="_blank"
+                    href=""><img
+                    border="0" src="./Octocat.png" align="top", width="26"></a>
+                    <a target="_blank"
+                    href="">Poster</a><br>
+		    T. S. Nguyen, H. Yang, <b>H. Zhang</b>, B. Fernando, in submission, 2023.
+                    <br><br>
+                 </li>
+				
+					
+		<!--Group Context, CVPR 2022 -->
+		 <li>Group Contextualization for Video Recognition<a target="_blank"
+                    href="https://arxiv.org/pdf/2203.09694.pdf"><img
+                    border="0" src="./pdf.bmp" align="top"></a><a target="_blank"
+                    href="https://github.com/haoyanbin918/Group-Contextualization"><img
+                    border="0" src="./Octocat.png" align="top", width="26"></a><br>
+                    Y. B. Hao, <b>H. Zhang*</b>, C. W. Ngo, X. N. He, Computer Vision and Pattern Recognition (<b>CVPR</b>), 2022.
+                    <br>
+                    <br>
+                 </li>
+					
+		<!--CBP, MM 2020 -->					
+		<li>Compact Bilinear Augmented Query Structured Attention for Sport Highlights Classification<a target="_blank"
+                    href="https://ink.library.smu.edu.sg/sis_research/6483/"><img
+                    border="0" src="./pdf.bmp" align="top"></a><br>
+                    Y. B. Hao, <b>H. Zhang*,</b> C. W. Ngo, Q. Liu, X. J. Hu, ACM Multimedia (<b>ACM MM</b>), 2020, Oral.
+                    <br>
+                    <br>
+                 </li>		
+					
+		<!--Hash, MM 2022 -->					
+		<li>Unsupervised Video Hashing with Multi-granularity Contextualization and Multi-structure Preservation<a target="_blank"
+                    href="http://staff.ustc.edu.cn/~hexn/papers/mm22-video-hashing.pdf"><img
+                    border="0" src="./pdf.bmp" align="top"></a><br>
+                    Y. B. Hao, J. R. Duan, <b>H. Zhang</b>, B. Zhu, P. Y. Zhou, X. N. He, ACM Multimedia (<b>ACM MM</b>), 2022.
+                    <br>
+                    <br>
+                 </li>					
+		<!--Hourglass, MM 2022 -->					
+		<li>Hierarchical Hourglass Convolutional Network for Efficient Video Classification<a target="_blank"
+                    href="https://hexiangnan.github.io/papers/mm22-hourglass-cnn-video.pdf"><img
+                    border="0" src="./pdf.bmp" align="top"></a><br>
+                    Y. Tan, Y. B. Hao, <i><b>H. Zhang</b></i>, S. Wang, X. N. He, ACM Multimedia (<b>ACM MM</b>), 2022.
+                    <br>
+                    <br>
+                 </li>						
+		<!--MLP, MM 2022 -->					
+		<li>Parameterization of Cross-token Relations with Relative Positional Encoding for Vision MLP<a target="_blank"
+                    href="https://hexiangnan.github.io/papers/mm22-PosMLP.pdf"><img
+                    border="0" src="./pdf.bmp" align="top"></a><br>
+                    Z. C. Wang, Y. B. Hao, X. Y. Gao, <b>H. Zhang</b>, S. Wang, T. T. Mu, X. N. He, ACM Multimedia (<b>ACM MM</b>), 2022.
+                    <br>
+                    <br>
+                 </li>						
+		<!--Retrieval, 2021 -->						
+		<li>Fine-grained Cross-modal Alignment Network for Text-Video Retrieval<a target="_blank"
+                    href="https://dl.acm.org/doi/abs/10.1145/3474085.3475241"><img
+                    border="0" src="./pdf.bmp" align="top"></a><br>
+                    N. Han, J. J. Chen, G. Xiao, <b>H. Zhang</b>, Y. Zeng, C. H. Chen, ACM Multimedia (<b>ACM MM</b>), 2021, Oral.
+                    <br>
+                    <br>
+                 </li>
+										
+		</ul>
+		<h5><i>Cooperation Works</i></h5>
+		<ul>
+					
+		<li>Adversarial Multi-Grained Embedding Network for Cross-Modal Text-Video Retrieval<a target="_blank"
+                    href=""><img
+                    border="0" src="./pdf.bmp" align="top"></a><br>
+		    N. Han, J. J. Chen, <b>H. Zhang</b>, H. W. Wang, H. Chen, ACM Trans on Multimedia Computing Communications and Applications (<b>TOMM</b>), 2022.
+                    <br>
+                    <br>
+                 </li>
+			
+		<li>Adaptive Temporal Grouping for Black-box Adversarial Attacks on Videos<a target="_blank"
+                    href=""><img
+                    border="0" src="./pdf.bmp" align="top"></a><br>
+		    Z. P. Wei, J. J. Chen, <b>H. Zhang</b>, L. X. Jiang, Y. G. Jiang, ACM International Conference on Multimedia Retrieval (<b>ICMR</b>), 2022.
+                    <br>
+                    <br>
+                 </li>
+			
+		<li>Chinese White Dolphin Detection in the Wild<a target="_blank"
+                    href=""><img
+                    border="0" src="./pdf.bmp" align="top"></a><br>
+                    <b>H. Zhang</b>, Q. Zhang, PA. Nguyen, V. Lee, A. Chan, ACM Multimedia Asia (<b>MM Asia</b>, 2021.
+                    <br>
+                    <br>
+                 </li>
+					
+		<li>Person-level Action Recognition in Complex Events via TSD-TSM networks<a target="_blank"
+                    href="http://vireo.cs.cityu.edu.hk/papers/Hieve_MM20_workshop_final_v2.pdf"><img
+                    border="0" src="./pdf.bmp" align="top"></a><br>
+                    Y. B. Hao, Z. N. Liu, <b>H. Zhang*,</b>, B. Zhu, J. J. Chen, Y. G. Jiang, C. W. Ngo, ACM Multimedia Workshop(<b>ACM MM Workshop</b>), 2020. <br><a href="./award1.pdf">(Rank 3rd in HiEve2020 Grand Challenge)</a> <a href="http://humaninevents.org/final_ranking_acm2020.html">(Track-4）</a>
+                    <br>
+                    <br>
+                 </li>
+
+		<li>Visual Relations Augmented Cross-modal Retrieval<a target="_blank"
+                    href="https://www.semanticscholar.org/paper/Visual-Relations-Augmented-Cross-modal-Retrieval-Guo-Chen/3d1ac5e2f4d70b26ee7e79ee30a38f64676b404a"><img
+                    border="0" src="./pdf.bmp" align="top"></a><br>
+                    Y. T. Guo, J. J. Chen, <b>H. Zhang,</b>, Y. G. Jiang, ACM International Conference on Multimedia Retrieval (<b>ICMR</b>), Oral, October 2020.
+                    <br>
+                    <br>
+                 </li>
+
+		<li>Enhanced VIREO KIS at VBS 2018<a target="_blank"
+                    href="https://link.springer.com/chapter/10.1007/978-3-319-73600-6_42"><img
+                    border="0" src="./pdf.bmp" align="top"></a><br>
+                    PA. Nguyen, Y. J. Lu, <b>H. Zhang,</b>, C. W. Ngo, International Conference on Multimedia Modeling, (<b>MMM</b>) Feburary 2018.
+                    <br>
+                    <br>
+                 </li>
+
+            	<li>On the Selection of Anchors and Targets for Video Hyperlinking<a target="_blank"
+                    href="./pub/p287-cheng.pdf"><img
+                    border="0" src="./pdf.bmp" align="top"></a><br>
+                    Z. Q. Cheng, <b>H. Zhang</b>, X. Wu, C. W. Ngo, International Conference on Multimedia Retrieval (<b>ICMR</b>), Bucharest, Romania, June 2017.
+                    <br>
+                    <br>
+                 </li>
+				
+		<li>Concept-Based Interactive Search System<a target="_blank"
+                    href="./pub/lu_mmm17.pdf"><img
+                    border="0" src="./pdf.bmp" align="top"></a><br>
+                    Y. J. Lu, P. A. Nguyen, <b>H. Zhang</b>, C. W. Ngo, International Conference on Multimedia Modeling (<b>MMM</b>), Reykjavik, Iceland, January 2017.
+                    <br>
+                    <br>
+                 </li>
+					
+		<li><b>Object Pooling for Multimedia Event Detection and Evidence Localization</b> <a target="_blank"
+                    href="https://www.jstage.jst.go.jp/article/mta/4/3/4_218/_pdf/-char/en"><img
+                    border="0" src="./pdf.bmp" align="top"></a><br>
+                    <b>H. Zhang</b>, C. W. Ngo, ITE Trans. on Media Technology and Applications, vol. 4, no. 3, pp. 218-226, 2016
+                    <br><br>
+                 </li>
+			
+		<li>Semantic Reasoning in Zero Example Video Event Retrieval<a target="_blank"
+                    href="https://dl.acm.org/citation.cfm?id=3131288"><img
+                    border="0" src="./pdf.bmp" align="top"></a><br>
+                    M. D. Boer, Y. J. Lu, <b>H. Zhang</b>, K. Schutte, W. Kraaij, C. W. Ngo, ACM Trans on Multimedia Computing Communications and Applications (<b>TOMM</b>), 2017
+                    <br><br>
+                 </li>
+			
+							
+		<li>Blind late fusion in multimedia event retrieval<a target="_blank"
+                    href="https://link.springer.com/article/10.1007%2Fs13735-016-0112-9"><img
+                    border="0" src="./pdf.bmp" align="top"></a><br>
+                    M. D. Boer, K. Schutte, <b>H. Zhang</b>, Y. J. Lu, C. W. Ngo, W. Kraaij, International Journal of Multimedia Information Retrieval (<b>IJMIR</b>), Sept 2016 
+                    <br><br>
+                 </li>
+                 
+                 <li>VIREO @ TRECVID 2016: Multimedia Event Detection, Ad-hoc Video Search, Video-to-Text Description<a target="_blank"
+                    href="http://vireo.cs.cityu.edu.hk/papers/VIREO_TRECVID2016_Notebook.pdf"><img
+                    border="0" src="./pdf.bmp" align="top"></a>, <a target="_blank"
+                    href="http://www-nlpir.nist.gov/projects/tvpubs/tv16.slides/tv16.med.vireo.slides.pdf">PPT</a>, <a target="_blank"
+                    href="http://www-nlpir.nist.gov/projects/tvpubs/tv16.slides/tv16.avs.med.vtt.vireo.poster.pdf">Poster</a><br>
+                    <b>H. Zhang</b>, L. Pang, Y. J. Lu, C. W. Ngo, NIST TRECVID Workshop (TRECVID'16), Gaithersburg, USA, Nov 2016.
+                    <br>
+                    <br>
+                 </li>			
+
+		<li>Event Detection with Zero Example: Select the Right and Suppress the Wrong Concepts<a target="_blank"
+                    href="https://dl.acm.org/citation.cfm?id=2911996.2912015"><img
+                    border="0" src="./pdf.bmp" align="top"></a><br>
+                    Y. J. Lu, <b>H. Zhang</b>, M. D. Boer, C. W. Ngo, ACM International Conference on Multimedia Retrieval (<b>ICMR</b>), New York, USA, June 2016. (Oral)
+                    <br>
+                    <br>
+                 </li>			
+
+		<li>VIREO-TNO @ TRECVID 2015: Multimedia Event Detection<a target="_blank"
+                    href="./pub/VIREO-TNO_TRECVID2015_MED_MER.pdf"><img
+                    border="0" src="./pdf.bmp" align="top"></a><br>
+                    <b>H. Zhang</b>, Y. J. Lu, M. D. Boer, F. T. Haar, Z. F. Qiu, K. Schutte, W. Kraaij, C. W. Ngo, NIST TRECVID Workshop (TRECVID'15), Gaithersburg, USA, Nov 2015. 
+                    <br>
+                    <br>
+                 </li>
+
+                 <li>VIREO-TNO @ TRECVID 2014: Multimedia Event Detection and Recounting (MED and MER)<a target="_blank"
+                    href="./pub/VIREO_TRECVID2014_MED_MER.pdf"><img
+                    border="0" src="./pdf.bmp" align="top"></a><br>
+                    C. W. Ngo, Y. J. Lu, <b>H. Zhang</b>, T. Yao, C. C. Tan, L. Pang, Maaike de Boer, John Schavemaker, Klamer Schutte and Wessel Kraaij, NIST TRECVID Workshop (TRECVID'14), Orlando, USA, 2014.
+                    <br>
+                    <br>
+                  </li>
+
+                 <li>VIREO @ TRECVID 2014: Instance Search and Semantic Indexing<a target="_blank"
+                    href="./pub/VIREO_TRECVID2014_ins_sin.pdf"><img
+                    border="0" src="./pdf.bmp" align="top"></a><br>
+                    W. Zhang, <b>H. Zhang</b>, T. Yao, Y. J. Lu, J. J. Chen, C. W. Ngo, NIST TRECVID Workshop (TRECVID'14), Orlando, USA, 2014.
+                    <br>
+                    <br>
+                 </li>						
+				</ul>
+		 </div>
+		 </div>
+
+		 <hr>
+		  
+      </div></div> <!-- /container -->
+      <div class="foot-fixed-bottom">
+	  	      <p align = "right"><a href= "http://twitter.github.com/bootstrap/"><u><font color="#000000">Proudly powered by Bootstrap</font></u></a></p>
+      </div>
+     
+
+
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../assets/js/jquery.js"></script>
+    <script src="../assets/js/bootstrap-transition.js"></script>
+    <script src="../assets/js/bootstrap-alert.js"></script>
+    <script src="../assets/js/bootstrap-modal.js"></script>
+    <script src="../assets/js/bootstrap-dropdown.js"></script>
+    <script src="../assets/js/bootstrap-scrollspy.js"></script>
+    <script src="../assets/js/bootstrap-tab.js"></script>
+    <script src="../assets/js/bootstrap-tooltip.js"></script>
+    <script src="../assets/js/bootstrap-popover.js"></script>
+    <script src="../assets/js/bootstrap-button.js"></script>
+    <script src="../assets/js/bootstrap-collapse.js"></script>
+    <script src="../assets/js/bootstrap-carousel.js"></script>
+    <script src="../assets/js/bootstrap-typeahead.js"></script>
+
+  </body>
+</html>
